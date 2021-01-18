@@ -75,7 +75,7 @@ namespace demodotnetframework
             para = doc.Content.Paragraphs.Add();
             para.Range.Text = content;
             para.Range.Font.Name = "Time New Romans";
-            para.Range.Font.Size = 13;
+            para.Range.Font.Size = 11;
             //para.Range.Font.Bold = 1;
             para.Range.InsertParagraphAfter();
             para.Format.SpaceAfter = 6;
@@ -83,17 +83,20 @@ namespace demodotnetframework
         }
         public static void InsertTextbox(Word.Document doc, Int32 paper_width, Int32 paper_height, string content, Location location)
         {
-            float A4_point_width = 500;
-            float A4_point_height = 705;
+            float A4_point_width = 595;
+            float A4_point_height = 842;
 
             int left = (int)((float)location.x1 / (float)paper_width * A4_point_width);
             int top = (int)((float)location.y1 / (float)paper_height * A4_point_height);
             int width = (int)(((float)location.x2 - (float)location.x1) / (float)paper_width * A4_point_width);
-            int height = (int)(((float)location.y2 - (float)location.y1) / (float)paper_height * A4_point_height);
+            int height = (int)(((float)location.y2 - (float)location.y1) / (float)paper_height * A4_point_height * 1.5);
 
             Word.Shape textbox;
             textbox = doc.Shapes.AddTextbox(MsoTextOrientation.msoTextOrientationHorizontal, left, top, width, height);
             textbox.TextFrame.TextRange.Text = content;
+            textbox.TextFrame.TextRange.Font.Name = "Time New Romans";
+            textbox.TextFrame.TextRange.Font.Size = 13;
+            textbox.Line.Visible = MsoTriState.msoFalse;
         }
         public static void InsertImage(Word.Document doc, Int32 paper_width, Int32 paper_height, string base64Image, Location location)
         {
@@ -112,6 +115,7 @@ namespace demodotnetframework
             string imagepath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "2.jpg");
             image = doc.Shapes.AddPicture(imagepath, false, true, left, top, width, height);
             image.WrapFormat.AllowOverlap = 0;
+            image.WrapFormat.Type = Word.WdWrapType.wdWrapThrough;
         }
         public static void CreateDocument(Data data)
         {
@@ -131,7 +135,8 @@ namespace demodotnetframework
                 ObjData obj = datalist[i];
                 if (obj.label == "line")
                 {
-                    InsertParagraph(document, obj.content);
+                    //InsertParagraph(document, obj.content);
+                    InsertTextbox(document, width, height, obj.content, obj.location);
                 }
                 else if (obj.label == "textbox")
                 {

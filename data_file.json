@@ -1,0 +1,385 @@
+{
+    "width": 1653,
+    "datalist": [
+        {
+            "label": "line",
+            "location": {
+                "x1": 239,
+                "y1": 1937,
+                "x2": 1441,
+                "y2": 1975
+            },
+            "content": "1B/2014/TT-BGD\u0110T ng\u00e0y 26 th\u00e1ng 5 n\u0103m 2014 cua b\u1ed9 tr\u01b0\u1edfng B\u1ed9 Gi\u00e1o qd\u1ee5c v\u00e0 \u0111ao t\u1ea1o, c\u00f4 hi\u1ec7u"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 231,
+                "y1": 655,
+                "x2": 1556,
+                "y2": 698
+            },
+            "content": "d\u1ee5uc tr\u1ef1c thu\u1ed9c B\u1ed9 Gi\u00e1o d\u1ee5c v\u00e0 \u0110\u00e0o t\u1ea1o; c\u00e1c t\u1ed5 ch\u1ee9c, c\u00e1 nh\u00e2n c\u00f4 li\u1ec3n quan ch\u1ecbu"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 949,
+                "y1": 923,
+                "x2": 1520,
+                "y2": 968
+            },
+            "content": "H\u00e0 N\u1ed9i ng\u00e0y 2 th\u00e1ng 03 n\u0103m 202"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 251,
+                "y1": 1048,
+                "x2": 517,
+                "y2": 1082
+            },
+            "content": "B\u1ed9 tr\u01b0\u1edfng (\u0111\u1ec3 b/c)"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 230,
+                "y1": 1815,
+                "x2": 1202,
+                "y2": 1852
+            },
+            "content": "BGD\u0110T ng\u00e0y 26 th\u00e1ng 3 n\u0103m 2014 cua b\u1ed9 tr\u01b0\u01a1ng B\u1ed9 giao d\u1ef1c v\u00e0 \u0111\u00e0o t\u1ea1o "
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 231,
+                "y1": 457,
+                "x2": 988,
+                "y2": 501
+            },
+            "content": "t\u1ea1o, c\u00e1c h\u1ed9i ngh\u1ecb, h\u1ed9i th\u1ea3o v\u00e0 c\u00e1c d\u1ef1 \u00e1n qu\u1ed1c t\u1ebf"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 233,
+                "y1": 205,
+                "x2": 809,
+                "y2": 250
+            },
+            "content": "c\u1ee7a c\u00e1n b\u1ed9, c\u1ed1ng ch\u1ee9c v\u00e0 vi\u1ec5n ch\u1ee9c"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 231,
+                "y1": 1693,
+                "x2": 856,
+                "y2": 1730
+            },
+            "content": "x\u00e9t \u0111\u1ec3 ngh\u1ecb cua c\u1ee5c \u01b0\u01b0\u01a1ng c\u1ee5c H\u1ee3p t\u00e1c qu\u1ed1c d\u1ec3"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 251,
+                "y1": 1010,
+                "x2": 801,
+                "y2": 1047
+            },
+            "content": "V\u0103n ph\u00f2ng Ch\u00ednh ph\u1ee7 (\u0111\u1ec3 \u0111\u0103ng c\u00f4ng b\u00e1o)"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 234,
+                "y1": 608,
+                "x2": 1544,
+                "y2": 651
+            },
+            "content": "\u00e1n, ch\u01b0\u01a1ng tr\u00ecnh c\u1ee7a B\u1ed9 Gi\u00e1o d\u1ee5c v\u00e0 \u0110\u00e0o t\u1ea1o; Th\u1ee7 tr\u01b0\u1edfng c\u00e1c c\u01a1 quan, c\u01a1 s\u1edf gi\u00e1o"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 1013,
+                "y1": 1255,
+                "x2": 1383,
+                "y2": 1305
+            },
+            "content": "Lg Nguy\u1ec5n V\u0103n Ph\u00fa"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 230,
+                "y1": 410,
+                "x2": 1539,
+                "y2": 453
+            },
+            "content": "ngo\u00e0i c\u00f4ng t\u00e1c v\u00e0 c\u00e1c \u0111o\u00e0n n\u01b0\u1edbc ngo\u00e0i v\u00e0o l\u00e0m vi\u1ec7c v\u1edbi ng\u00e0nh gi\u00e1o d\u1ee5c v\u00e0 \u0111\u00e0o"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 306,
+                "y1": 272,
+                "x2": 1504,
+                "y2": 318
+            },
+            "content": "\u0110i\u1ec1u 2/Th\u00f4ng t\u01b0 n\u00e0y c\u00f3 hi\u1ec7u l\u1ef1c thi h\u00e0nh k\u1ebf t\u1eeb ng\u00e0y 11 th\u00e1ng 7 n\u0103m 201"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 263,
+                "y1": 2026,
+                "x2": 1209,
+                "y2": 2063
+            },
+            "content": "\u0110i\u1ec1u 3/ Th\u00f4ng t\u01b0 n\u00e0y c\u00f3 hi\u1ec7u (\u1ef1c thi h\u00e0nh k t\u1eeb ng\u00e0y 10 th\u00e1ng 02 n\u0103m 2020"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 315,
+                "y1": 516,
+                "x2": 1517,
+                "y2": 561
+            },
+            "content": "\u0110i\u1ec1u 3.Ch\u00e1nh V\u0103n ph\u00f2ng, Vu tr\u01b0\u1edfng V\u1ee5 H\u1ee3p t\u00e1c Qu\u1ed1c t\u1ebf, Th\u1ee7 tr\u01b0\u1edfng c\u00e1"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 229,
+                "y1": 365,
+                "x2": 1529,
+                "y2": 409
+            },
+            "content": "B\u1ed9 gi\u00e1o duc v\u00e0 \u0110\u00e0o t\u1ea1o v\u1ec1 vi\u1ec7c qu\u1ea3n l\u00fd c\u00e1c \u0111o\u00e0n gi\u00e1o d\u1ee5c v\u00e0 \u0111\u00e0o t\u1ea1o ra n\u01b0\u1edbc"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 298,
+                "y1": 149,
+                "x2": 1508,
+                "y2": 195
+            },
+            "content": "\u0110i\u1ec1u 1.Ban h\u00e0nh k\u00e8m theo Th\u1ed1ng t\u01b0 m\u00e0y Quy ch\u1ec3 qu\u1ea3n l\u00fd vi\u1ec7c ra n\u01b0\u1edbc ngo\u00e0"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 242,
+                "y1": 320,
+                "x2": 1507,
+                "y2": 364
+            },
+            "content": "v\u00e0 thay th\u1ebf Quy\u1ebft \u0111\u1ecbnh s\u1ed1 1523/GD&\u0110T ng\u00e0y 06 th\u00e1ng 6 n\u0103m 1994 c\u1ee7a B\u1ed9 tr\u01b0\u1edfn"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 363,
+                "y1": 900,
+                "x2": 762,
+                "y2": 946
+            },
+            "content": "S\u1ed1: 01/VBHN-BGD\u0110"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 295,
+                "y1": 830,
+                "x2": 829,
+                "y2": 877
+            },
+            "content": "B\u1ed8 GI\u00c1O D\u1ef0C V\u00c0 \u0110\u1ea2O T\u1ea0O"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 917,
+                "y1": 827,
+                "x2": 1544,
+                "y2": 878
+            },
+            "content": "X\u00c1C TH\u1ef1C V\u0102N B\u1ea2N H\u1ee2P NH\u1ea4T"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 252,
+                "y1": 978,
+                "x2": 382,
+                "y2": 1010
+            },
+            "content": "N\u01a1i nh\u1eadn"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 240,
+                "y1": 1604,
+                "x2": 1246,
+                "y2": 1640
+            },
+            "content": "s\u01b0a \u0111\u1ed5i, b\u1ed5 sung m\u1ed9t s\u1ed1 \u0111i\u1ec1u c\u1ee7a Ngh\u1ecb \u0111\u1ecbnh s\u1ed1 136/200/N\u0110-CT ng\u00e0y 17 th\u00e1n"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 1055,
+                "y1": 982,
+                "x2": 1390,
+                "y2": 1024
+            },
+            "content": "KT. B\u1ed2 TR\u01af\u1edeN"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 1489,
+                "y1": 2169,
+                "x2": 1514,
+                "y2": 2200
+            },
+            "content": "2"
+        },
+        {
+            "label": "image",
+            "location": {
+                "x1": 887,
+                "y1": 957,
+                "x2": 1529,
+                "y2": 1338
+            },
+            "content": "iVBORw0KGgoAAAANSUhEUgAAAOgAAACJCAMAAAAR34S1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMAUExURQAAAA8PDx8fHy8vLz8/P09PT19fX29vb39/f4+Pj5+fn6+vr7+/v8/Pz9/f3+/v7////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK/M6GAAAAEAdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wBT9wclAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGHRFWHRTb2Z0d2FyZQBwYWludC5uZXQgNC4wLjb8jGPfAAALWklEQVR4Xu2da6Ojqg6GQVFREdb//7PdCSAXwUsLtp211/thH6fTaX0ghCTEHvL4n+gP9LfpD/S36Q/0t+kP9LfpDzSvhXcNQVHGF/vav6FnQFWPkJRpUUKYsH/xL+g6qGBAOUzK/vEhx4b09vof0FVQxSlpPaXRRP8d0ougM2La60BLM9irezWVL5JLoKoDo7XXsRb6DpfUk8Zeva4roEtL6Gyvtxo7e3GjJnAOxVN6AXShhG0Wp5cg0l7dJ0rGoXiJnIMC54HLEeVjfaYJlo1s7R9e1imoojvL02ig9uI+tRTsqXiRnoIyMtqrrJrbNxipB5qVOr0zUE6YvcqK379EzVfw0hVyAqoo2s2uFsrt1X1q9fK8G3Qke/sKaqb3by7KLB2eCVee0gloc2S4I2mPpruOJrM4eKnpHIPOBxMqWtLdz/nojL/lR5Z1Rcegw94KVTNEhaXWdEnUbG43r1GWXYNqBErC7w+JQGtAcjMoyayMpYOcm3Rvqi9wYmxquBk0CRYUFhna4W1lFGa94X60fVEnoKUuoFirTd0cAr4hHjiWsEMtbwZlny6VjNYXjcU3cgz6htzkWL0BVeWmdQy6fGqRKjFzrouqLdZWm8NU8ZKOQR9NebHmWcmZAx9lHDSYKjLuZ33hkJ+AYnb/Rqm5B6hmGG0wMtqv74G0MBA7AX00x3l3VWFYCZTB1HXEbNgNLNG5KYoZzkCXlrTviQ4gSSBNH8PYlbPokFsVed4zUAzCSH9/WCthNtl2GZoqCliu8bmixHjPQfEebg8cloZkLHMylquoHegSf3EBVFtVc+s+s1Nq7E2Rc1pzqBLbvQSKnuDW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"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 225,
+                "y1": 2113,
+                "x2": 1561,
+                "y2": 2147
+            },
+            "content": "b\u1ed9 gi\u00e1o d\u1ef1c v\u00e0 \u0111\u1ea3o t\u1ea1o, c\u00e1c t\u1ed5 chuc, c\u1ea3 nh\u00e2n co li\u00ean qun c\u1ee7 trch nhi\u1ec7m thi h\u1ea3nh th\u00f4ng ti nay c "
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 198,
+                "y1": 1866,
+                "x2": 1514,
+                "y2": 1904
+            },
+            "content": "\u0110i\u1ec1u 3 v\u00e0 \u0111i\u1ec1u 4 c\u1ee7a Th\u00f4ng t\u01b0 s\u1ed1 23/2019/TT-BGD\u0110T s\u1eeda \u0111\u1ed1i, b\u1ed5 sung m\u1ed9t s\u00f4 \u0111i\u1ec1u cua quy ch"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 234,
+                "y1": 1976,
+                "x2": 847,
+                "y2": 2011
+            },
+            "content": "t\u1ef1 ng\u00e0y 10 th\u0103ng 02 n\u0103m 20/20 quy \u0111\u1ecbnh nh\u1eed s\u00e2u"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 246,
+                "y1": 2077,
+                "x2": 1515,
+                "y2": 2113
+            },
+            "content": "\u0110i\u1ec3u 4 ch\u00e1nh V\u0103n ph\u00f2ng. c\u1ee5c r\u01b0\u01a1ng C\u00e1c H\u1ee3p t\u00e1c qu\u1ed1c i\u1ed9, th\u01b0 tr\u01b0\u01a1ng c\u00e1c \u0111\u01a1n v\u1ecb thu\u1ed9c v\u1ee7 r\u1ef1c th\u1ee3"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 244,
+                "y1": 697,
+                "x2": 1003,
+                "y2": 749
+            },
+            "content": "r\u00e1ch nhi\u1ec7m thi h\u00e0nh Th\u1ed3ng t\u01b0 m\u00e0y / c0"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 252,
+                "y1": 1083,
+                "x2": 620,
+                "y2": 1116
+            },
+            "content": "C\u00f4ng TT\u0110T c\u1ee7a B\u1ed9 GD\u0110T"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 261,
+                "y1": 1119,
+                "x2": 629,
+                "y2": 1155
+            },
+            "content": "- L\u01b0u: VT, PC, NGCBQLG"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 245,
+                "y1": 1744,
+                "x2": 1522,
+                "y2": 1780
+            },
+            "content": "B\u1ed9 tr\u01b0\u01a1ng B\u1ed9 gi\u00e1o \u0111\u1ef1c v\u00e0 \u0110\u00e0o t\u1ef1o ban h\u00e0nh Th\u00f4ng t\u01b0a s\u01b0a \u0111oi, b\u1ed5 sung m\u1ed9t s\u00f4 \u0111i\u1ec1u cu\u1ea3 quy che qu\u1eef"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 241,
+                "y1": 1779,
+                "x2": 1543,
+                "y2": 1816
+            },
+            "content": "0 vi\u1ec7c r\u1ee7 n\u01b0\u1edbc ngo\u00e0i c\u1ee7a c\u00e1n b\u1ed5 c\u00f4ng ch\u1ee9c v\u00e0 vi\u00ean ch\u1ee9c ban h\u1ea3nh k\u00e8m theo Th\u00f4ng l\u01b0 s\u1ed1 1/201217-"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 183,
+                "y1": 1902,
+                "x2": 1527,
+                "y2": 1937
+            },
+            "content": "qu\u1ea3n ty vi\u1ec7c ra n\u01b0\u1edbc ngoai cua can b\u1ed9, c\u00f4ng ch\u01b0c va vi\u00ean ch\u1ee9c ban h\u0103nh kem th\u00eao th\u00f2ng t\u01b0 s "
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 242,
+                "y1": 1642,
+                "x2": 754,
+                "y2": 1676
+            },
+            "content": "canh, nh\u1eadp canh cua co\u01a1ng d\u00e2n Vi\u1ec7t Nam"
+        },
+        {
+            "label": "line",
+            "location": {
+                "x1": 234,
+                "y1": 563,
+                "x2": 1527,
+                "y2": 607
+            },
+            "content": "\u0111\u01a1n v\u1ecb thu\u1ed9c c\u01a1 quan B\u1ed9 Gi\u00e1o d\u1ee5c v\u00e0 \u0110\u00e0o t\u1ea1o v\u00e0 Gi\u00e1m \u0111\u1ed1c Ban qu\u1ea3n l\u00fd c\u00e1c d\u1ef1"
+        }
+    ]
+}

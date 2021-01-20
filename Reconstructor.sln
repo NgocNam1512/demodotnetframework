@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demodotnetframework", "demodotnetframework.csproj", "{E6CAC320-7D96-4266-89AE-B2F6C16315FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reconstructor", "Reconstructor.csproj", "{E6CAC320-7D96-4266-89AE-B2F6C16315FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

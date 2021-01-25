@@ -5,6 +5,7 @@ using Word = Microsoft.Office.Interop.Word;
 using Microsoft.Office.Core;
 using System.Reflection;
 using System.Text.Json;
+using System.Threading;
 
 namespace Reconstructor
 {
@@ -70,7 +71,7 @@ namespace Reconstructor
             int left = (int)((float)location.x1 / (float)paper_width * A4_point_width);
             int top = (int)((float)location.y1 / (float)paper_height * A4_point_height);
             int width = (int)(((float)location.x2 - (float)location.x1) / (float)paper_width * A4_point_width);
-            int height = (int)(((float)location.y2 - (float)location.y1) / (float)paper_height * A4_point_height * 1.5);
+            int height = (int)(((float)location.y2 - (float)location.y1) / (float)paper_height * A4_point_height * 1.75);
 
             Word.Shape textbox;
             textbox = doc.Shapes.AddTextbox(MsoTextOrientation.msoTextOrientationHorizontal, left, top, width, height);
@@ -105,7 +106,6 @@ namespace Reconstructor
             using (StreamReader r = new StreamReader(jsonpath))
             {
                 string json = r.ReadToEnd();
-                Console.WriteLine(json);
                 data = JsonSerializer.Deserialize<Data>(json);
             }
             int width = data.width;
@@ -122,18 +122,15 @@ namespace Reconstructor
             for (int i = 0; i < datalist.Length; i++)
             {
                 ObjData obj = datalist[i];
-                if (obj.label == "line")
-                {
-                    //InsertParagraph(document, obj.content);
-                    InsertTextbox(document, width, height, obj.content, obj.location);
-                }
-                else if (obj.label == "textbox")
+                if (obj.label == "line" || obj.label == "textbox")
                 {
                     InsertTextbox(document, width, height, obj.content, obj.location);
+
                 }
                 else if (obj.label == "image")
                 {
                     InsertImage(document, width, height, obj.content, obj.location);
+
                 }
                 else
                 {
@@ -142,7 +139,7 @@ namespace Reconstructor
             }
 
             // save document
-            object filename = output_path;
+            object filename = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), output_path); ;
             document.SaveAs2(ref filename);
             document.Close();
             document = null;

@@ -70,7 +70,7 @@ namespace Reconstructor
 
             int left = (int)((float)location.x1 / (float)paper_width * A4_point_width);
             int top = (int)((float)location.y1 / (float)paper_height * A4_point_height);
-            int width = (int)(((float)location.x2 - (float)location.x1) / (float)paper_width * A4_point_width);
+            int width = (int)(((float)location.x2 - (float)location.x1) / (float)paper_width * A4_point_width * 1.5);
             int height = (int)(((float)location.y2 - (float)location.y1) / (float)paper_height * A4_point_height * 1.75);
 
             Word.Shape textbox;
@@ -82,10 +82,11 @@ namespace Reconstructor
         }
         public static void InsertImage(Word.Document doc, Int32 paper_width, Int32 paper_height, string base64Image, Location location)
         {
-            float A4_point_width = 500;
-            float A4_point_height = 705;
+            float A4_point_width = 595;
+            float A4_point_height = 842;
             string imageName = "temp.jpg";
             Image img = base64ToImage(base64Image);
+            img = new Bitmap(img);
             img.Save(imageName);
 
             int left = (int)((float)location.x1 / (float)paper_width * A4_point_width);
@@ -118,6 +119,10 @@ namespace Reconstructor
             Word.Document document;
             app.Visible = true;
             document = app.Documents.Add();
+            document.PageSetup.TopMargin = 0;
+            document.PageSetup.BottomMargin = 0;
+            document.PageSetup.RightMargin = 0;
+            document.PageSetup.LeftMargin = 0;
 
             for (int i = 0; i < datalist.Length; i++)
             {

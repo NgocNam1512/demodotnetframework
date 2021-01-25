@@ -88,22 +88,23 @@ namespace demodotnetframework
 
             int left = (int)((float)location.x1 / (float)paper_width * A4_point_width);
             int top = (int)((float)location.y1 / (float)paper_height * A4_point_height);
-            int width = (int)(((float)location.x2 - (float)location.x1) / (float)paper_width * A4_point_width);
-            int height = (int)(((float)location.y2 - (float)location.y1) / (float)paper_height * A4_point_height * 1.5);
+            int width = (int)(((float)location.x2 - (float)location.x1) / (float)paper_width * A4_point_width * 1.5);
+            int height = (int)(((float)location.y2 - (float)location.y1) / (float)paper_height * A4_point_height * 2);
 
             Word.Shape textbox;
             textbox = doc.Shapes.AddTextbox(MsoTextOrientation.msoTextOrientationHorizontal, left, top, width, height);
             textbox.TextFrame.TextRange.Text = content;
             textbox.TextFrame.TextRange.Font.Name = "Time New Romans";
-            textbox.TextFrame.TextRange.Font.Size = 13;
+            textbox.TextFrame.TextRange.Font.Size = 12;
             textbox.Line.Visible = MsoTriState.msoFalse;
         }
         public static void InsertImage(Word.Document doc, Int32 paper_width, Int32 paper_height, string base64Image, Location location)
         {
-            float A4_point_width = 500;
-            float A4_point_height = 705;
+            float A4_point_width = 595;
+            float A4_point_height = 842;
             string imageName = "temp.jpg";
             Image img = base64ToImage(base64Image);
+            img = new Bitmap(img);
             img.Save(imageName);
 
             int left = (int)((float)location.x1 / (float)paper_width * A4_point_width);
@@ -112,7 +113,7 @@ namespace demodotnetframework
             int height = (int)(((float)location.y2 - (float)location.y1) / (float)paper_height * A4_point_height);
 
             Word.Shape image;
-            string imagepath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "2.jpg");
+            string imagepath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "temp.jpg");
             image = doc.Shapes.AddPicture(imagepath, false, true, left, top, width, height);
             image.WrapFormat.AllowOverlap = 0;
             image.WrapFormat.Type = Word.WdWrapType.wdWrapThrough;
@@ -127,8 +128,13 @@ namespace demodotnetframework
             object endOfDoc = "\\endofdoc";
             Word.Application app = new Word.Application();
             Word.Document document;
-            app.Visible = true;
             document = app.Documents.Add();
+            document.PageSetup.TopMargin = 0;
+            document.PageSetup.BottomMargin = 0;
+            document.PageSetup.RightMargin = 0;
+            document.PageSetup.LeftMargin = 0;
+            app.Visible = true;
+            
 
             for (int i = 0; i < datalist.Length; i++)
             {
@@ -163,7 +169,7 @@ namespace demodotnetframework
         }
         static void Main(string[] args)
         {
-            string jsonpath = @"C:\Users\namnn12\Desktop\demodotnetframework\data_file.json";
+            string jsonpath = @"C:\Users\namnn12\Desktop\demodotnetframework\final_demo\01289.json";
 
             Data data;
             using (StreamReader r = new StreamReader(jsonpath))
